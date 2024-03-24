@@ -835,3 +835,75 @@ opacity: 0;
     text-align: center;
     }
     }
+
+    @media only screen and (max-width: 768px) {
+        /* Adjust image and text size for smaller screens */
+    
+        .container .white-bg img {
+            max-width: 30%; /* Make images responsive */
+            height: auto; /* Ensure aspect ratio is maintained */
+        }
+        .container .white-bg img#app2 {
+            max-width: 60%; /* Set a different maximum width for the "app2" picture */
+            height: auto; /* Ensure aspect ratio is maintained */
+            margin-top: -100px;
+            margin-left: -40px;
+        }
+    
+        .hero .content-works {
+            padding: 20px; /* Add padding to the content for better readability */
+        }
+    
+        
+    
+        .hero .content-works .explain h2{
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: 100px;
+            margin-top: -200px;
+
+        }
+        .hero .content-works .explain2 h2{
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: -150px;
+            margin-top: 10px;
+
+        }
+        .hero .content-works .more-explain h2{
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: 100px;
+            margin-top: -135px;
+
+        }
+        
+        .hero .content-works .more-explain2 h2 {
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: -150px;
+            margin-top: 60px;
+        }
+    
+        .hero .content-works .explain p{
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: 60px;
+            margin-top: -180px;
+
+        }
+        .hero .content-works .more-explain p{
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: 60px;
+            margin-top: -117px;
+
+        }
+        .hero .content-works .explain2 p{
+            font-size: 11px; /* Decrease heading font size */
+            margin-left: -150px;
+            margin-top: 30px;
+
+        }
+        .hero .content-works .more-explain2 p {
+            font-size: 11px; /* free library */
+            margin-left: -150px;
+            margin-top: 80px;
+        }
+    
+       
+    }
