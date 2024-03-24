@@ -1,0 +1,837 @@
+
+body {
+    overflow-x: hidden;
+    }
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background-color: #191825;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .white-s-bg{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    height: 50%;
+    width: 30%;
+    background-color: #F6F1F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+}
+.container .white-s-bg::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 70px;
+    height: 40px;
+    background-color: #F6F1F1;
+    transform: rotate(45deg);
+    z-index: 1;
+    border: 3px solid #000000;
+    border-top-left-radius: 5px;
+  }
+
+.container .white-bg{
+    position: absolute;
+    top: 50px;
+    left:30px;
+    height: 80%;
+    width: 70%;
+    background-color: #F6F1F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+
+
+}
+
+
+.container .white-bg img{
+    max-width: 60%;
+    max-height: 70%;
+   margin: auto;
+   display: block;
+   transition: transform 0.3s ease;
+   z-index: 1;
+}
+.container .white-bg img:hover{
+    transform: scale(1.1); 
+}
+
+.container .white-bg img#app1 {
+    position: absolute;
+    left: 47%;
+    top: 28%;
+    z-index: 2;
+}
+
+.container .white-bg img#app1do {
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
+}
+.container .white-bg img#app2{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    z-index:3;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+}
+.hero .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 30%;
+    margin-left: 450px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+.hero nav .nav-links a{
+    color: #000000;
+    margin-left: 55px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.hero nav .nav-links a:hover,
+.hero nav .nav-links a.active{
+    color: #146C94;
+}
+
+.hero .nav-links2{
+    display: flex;
+    justify-content: center;
+    height: 507px;
+    width: 30%;
+    margin-left: 107px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.hero nav .nav-links2 a{
+    color: #000000;
+    margin-left: 55px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.hero nav .nav-links2 a:hover,
+.hero nav .nav-links2 a.active{
+    color: #146C94;
+}
+
+.hero .content-resume{
+position: absolute;
+display: flex;
+justify-content: center;
+padding-right: 0%;
+font-family: 'Rajdhani', sans-serif;
+}
+
+.hero .content-works{
+position: absolute;
+display: flex;
+justify-content: center;
+padding-right: 0%;
+font-family: 'Rajdhani', sans-serif;
+}
+
+.hero .content-works .explain h2{
+    position: absolute;
+    margin-left: 375px;
+    margin-top: -350px;
+    white-space: nowrap;
+}
+.hero .content-works .more-explain h2{
+    position: absolute;
+    margin-left: 375px;
+    margin-top: -240px;
+    white-space: nowrap;
+}
+.hero .content-works .explain p{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -314px;
+    white-space: nowrap;
+}
+.hero .content-works .more-explain p{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -200px;
+    white-space: nowrap;
+}
+
+.hero .content-works .explain2 h2{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -100px;
+    white-space: nowrap;
+}
+.hero .content-works .more-explain2 h2{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.hero .content-works .explain2 p{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -50px;
+    white-space: nowrap;
+}
+.hero .content-works .more-explain2 p{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 66px;
+    white-space: nowrap;
+}
+.hero .content-resume .resume-text h1{
+    position: relative;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: -450px;
+    font-size: 15px;
+    margin-left: -400px;
+}
+.hero .content-resume .skills{
+    position: relative;
+    display: flex;
+    margin-top: -350px;
+    
+}
+.hero .content-resume .skills h2{
+    position: absolute;
+    margin-left: -820px;
+}
+.hero .content-resume .skills .skills-list{
+    position: absolute;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 20px;
+            
+}
+.hero .content-resume .skills .skills-list li{
+    margin-bottom: 10px;
+    margin-left:-650px;
+}
+.hero .content-resume .skills .skills-list li::before{
+    content: "\2022";
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.hero .content-resume .work-exp{
+    position: absolute;
+    display: flex;
+   
+}
+.hero .content-resume .work-exp h2{
+    position: absolute;
+    margin-left: -830px;
+    margin-top: 230px;
+}
+.hero .content-resume .work-exp p{
+    margin-left: -630px;
+    margin-top: 230px;
+}
+
+
+.hero .content-resume .education h2{
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 80px;
+}
+.hero .content-resume .education p{
+    position: absolute;
+    margin-left: -10px;
+    white-space: nowrap;
+    margin-top: 70px;
+}
+
+.hero .content-resume .projects h2{
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 200px;
+
+}
+
+.hero .content-resume .projects p{
+    position: absolute;
+    margin-left: -10px;
+    white-space: nowrap;
+    margin-top: 208px;
+}
+.hero .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.hero .content .div-text{
+    width: 40%;
+    text-align: center;
+}
+
+
+.title {
+    margin-top: -150px;
+    font-family: 'Playfair Display', sans-serif;
+  }
+.sub-title{
+    margin-top: 50px;
+}  
+
+
+.hero .content .div-text .title{
+    margin-bottom: 20px;
+    font-size: 89px;
+    color: #000000;
+}
+.hero .content .div-text .sub-title{
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero .content .div-text .para{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 18px;
+}
+
+.hero .content .div-text .btn{
+    padding: 15px 20px;
+    background-color: #146C94;
+    border: 2px solid #000000;
+    color: #F6F1F1;
+    border-radius: 5px;
+    font-weight: bold;
+  
+    
+}
+.hero .content .div-text .btn:hover{
+    color: #146C94;
+    transition: 0.3s;
+    background-color: transparent;
+
+}
+
+.soc-link{
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.soc-link a i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #F6F1F1;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.soc-link a i:hover{
+    color:#146C94;
+
+}
+
+
+.hero .content .div-img{
+    width: 60%;
+}
+
+.hero .content .div-img img{
+    width: 100%;
+}
+
+
+
+.hero .content .div-text .title,
+.hero .content .div-text .sub-title,
+.hero .content .div-text .btn{
+    position: relative;
+    top:50px;
+    animation: slide-top .5s linear forwards;
+    opacity: 0;
+}
+
+.hero .content .div-text title{
+    animation-delay: 0.5s;
+
+}
+.hero .content .div-text .sub-title{
+    animation-delay: 0.9s;
+
+}
+
+.hero .content .div-text .btn{
+    animation-delay: 1.8s;
+
+}
+
+
+
+@keyframes slide-top{
+    0%{
+        top: 50px;
+        opacity: 0;
+    }100%{
+        top:0;
+        opacity: 1;
+    }
+}
+.hero .content .div-text .para{
+    position: relative;
+    left: 100px;
+    animation: slide-right .5s linear forwards;
+    animation-delay: 1.3s;
+    opacity: 0;
+}
+
+@keyframes slide-right{
+    0%{
+        left: 100px;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
+.hero .content .div-img img{
+
+opacity: 0;
+    transform: scale(0.8);
+    animation: fade-img .5s linear forwards;
+    animation-delay: 2.1s;
+}
+
+@keyframes fade-img{
+    0%{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container .white-bg {
+    top: 20px;
+    left: 20px;
+    height: 80%;
+    width: 84%;
+    border-radius: 10px;
+    box-shadow: none;
+    }
+    
+    .hero {
+        position: relative;
+    } 
+    .hero .nav-links {
+    position: absolute;
+    top: 3%;
+    left: -49px;
+    width: 100%;
+    margin: 0;
+    }
+   .nav-links a{
+
+    margin-right: -16px;
+
+   }
+
+    
+    
+    .hero .content {
+    flex-direction: column;
+    padding-right: 0;
+    
+    }
+    
+    .hero .content .div-text {
+    width: 100%;
+    text-align: center;
+    }
+    
+    .hero .content .div-text .title {
+    margin-top: 110px;
+    font-size: 30px;
+    }
+    
+    .hero .content .div-text .sub-title {
+    font-size: 18px;
+    margin-top: 30px;
+    }
+    
+    .soc-link {
+        position: absolute;
+        top: 35px;
+        right: 10px;
+        transform: none;
+
+    }
+    
+    .hero .content .div-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: -30px;
+    }
+    
+    .hero .content .div-img img {
+    transform: none;
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .hero .content .div-text .para {
+    position: static;
+    left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    
+    .hero .content .div-text .title,
+    .hero .content .div-text .sub-title,
+    .hero .content .div-text .btn {
+    top: 0;
+    }
+    
+    .hero .content .div-text .title,
+    .hero .content .div-text .sub-title,
+    .hero .content .div-text .btn,
+    .hero .content .div-text .para,
+    .hero .content .div-img img {
+    opacity: 1;
+    animation: none;
+    }
+    }
+
+
+
+    .content-2{
+        position: relative;
+        width: 100%;
+        height:100vh;
+        background-color: #191825;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-2 .white-bg{
+        position: absolute;
+        top: 50px;
+        left:150px;
+        height: 80%;
+        width: 80%;
+        background-color: #F6F1F1;
+        border: 3px solid #000000;
+        border-radius: 20px;
+        box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+    
+    }
+
+.content-2 .div-img2{
+        position: absolute;
+        top:-55%;
+        left:-50%;
+}
+        
+.content-2 .box-img{
+    position: absolute;
+    top:-17%;
+    left:-15%;
+}
+
+.content-2 .matlab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    font-family: 'Playfair Display', sans-serif;
+    z-index: 2;
+    
+}
+
+.content-2 .matlab h1{
+   font-size: 84px; 
+   margin-top: -450px;
+   margin-right: 390px;
+}
+
+.content-2 .tech-icons{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    margin-right: 200px;
+    margin-top: 50px;
+   
+}
+
+.content-2 .tech-icons .first-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+.content-2 .tech-icons .second-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+
+  }
+.content-2 .tech-icons img{
+    width: 65px;
+    height: 80px;
+    margin-right: 34px
+}
+
+.content-2 .tech-icons .tech-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    z-index: 2;
+    font-weight: bold;
+    
+}
+
+.content-2 .tech-icons .tech-txt p{
+    font-size: 25px; 
+    margin-top: -75px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .content-2 .white-bg{
+        top: 20px;
+        left: 20px;
+        height: 80%;
+        width: 84%;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+    .content-2 .div-img2{
+        display: none;
+    }
+
+    .content-2 .box-img{
+        display: none;
+    }
+
+    .content-2 .matlab{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .content-2 .matlab h1{
+        font-size: 50px;
+        margin-top: -450px;
+        margin-right: -40px;
+        margin-left: -76px;
+        text-align: center;
+    }
+
+    .content-2 .tech-icons{
+        margin: 20px auto 0 auto;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .content-2 .tech-icons .first-row,
+    .content-2 .tech-icons .second-row{
+        justify-content: center;
+    }
+
+    .content-2 .tech-icons img{
+        margin-right: 5px;
+        margin-left: -3px;
+        width: 54.5px;
+        height: 40px;
+    }
+
+    .content-2 .tech-icons .tech-txt{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-2 .tech-icons .tech-txt p{
+        margin: 5px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.content-3{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background-color: #191825;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-3 .white-bg{
+    position: absolute;
+    height: 80%;
+    width: 65%;
+    background-color: #F6F1F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+
+}
+.content-3 {
+    position: relative;
+  }
+
+.content-3 .matlab-2{
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+     position: absolute;
+ 
+}
+
+.content-3 .matlab-2 h1{
+   font-size: 100px; 
+   font-family: 'Playfair Display', sans-serif;
+   margin-left: 20px;
+   margin-top: -300px;
+}
+
+.content-3 .matlab-2 h2{
+    font-size: 40px; 
+    color: rgba(20, 108, 148, 0.65);
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: auto;
+    margin-right: 50px;
+    letter-spacing: 6px;
+    margin-top: 40px;
+    position: relative;
+
+ }
+ .content-3 .matlab-2 h2::after {
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(to right, transparent, #96D0A6, transparent);
+    width: 80%; 
+    border-radius: 10px;
+  }
+
+.content-3 .contact-info{
+
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    position: absolute;
+   
+}
+
+.content-3 .contact-info h4{
+   font-size: 20px; 
+   font-family: 'Rajdhani', sans-serif;
+   color:#302f2fce;
+   margin-right: 160px;
+   margin-top:   140px;
+   margin-left: 180px;
+}
+
+.content-3 .pho-ema{
+    display: flex;
+    z-index: 2;
+    flex-direction: row;
+    position: absolute;
+ 
+}
+.content-3 .pho-ema h5{
+
+    font-size: 20px; 
+    font-family: 'Rajdhani', sans-serif;
+    color:#474646ae;
+    margin-right: 50px;
+    margin-top:   200px;
+    margin-left: 180px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .content-3 .white-bg{
+        top: 20px;
+        left: 20px;
+        height: 80%;
+        width: 84%;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+    .content-3 .matlab-2 h1{
+    font-size: 50px;
+    margin-left: 33px;
+    margin-top: -250px;
+    }
+    .content-3 .matlab-2 h2{
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: center;
+    }
+    .content-3 .contact-info h4{
+    margin-right: 80px;
+    margin-left: 30px;
+    margin-top: 100px;
+    text-align: center;
+    }
+    .content-3 .pho-ema h5{
+    font-size: 11px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 150px;
+    text-align: center;
+    }
+    }
