@@ -472,6 +472,17 @@ opacity: 0;
     margin-right: -16px;
 
    }
+   .hero .nav-links2 {
+    position: relative;
+    left: -49px;
+    width: 100%;
+    margin: 0;
+    }
+    .nav-links2 a{
+
+        margin-right: -16px;
+    
+       }
 
     
     
@@ -860,51 +871,51 @@ opacity: 0;
     
         .hero .content-works .explain h2{
             font-size: 11px; /* Decrease heading font size */
-            margin-left: 100px;
-            margin-top: -200px;
+            margin-left: 20px;
+            margin-top: -270px;
 
         }
         .hero .content-works .explain2 h2{
             font-size: 11px; /* Decrease heading font size */
-            margin-left: -150px;
-            margin-top: 10px;
+            margin-left: -130px;
+            margin-top: -90px;
 
         }
         .hero .content-works .more-explain h2{
-            font-size: 11px; /* Decrease heading font size */
-            margin-left: 100px;
-            margin-top: -135px;
+            font-size: 11px; /* key features */
+            margin-left: 20px;
+            margin-top: -200px;
 
         }
         
         .hero .content-works .more-explain2 h2 {
-            font-size: 11px; /* Decrease heading font size */
-            margin-left: -150px;
-            margin-top: 60px;
+            font-size: 11px; /* key features */
+            margin-left: -130px;
+            margin-top: -27px;
         }
     
         .hero .content-works .explain p{
-            font-size: 11px; /* Decrease heading font size */
-            margin-left: 60px;
-            margin-top: -180px;
+            font-size: 11px; /* help me desc */
+            margin-left: 20px;
+            margin-top: -250px;
 
         }
         .hero .content-works .more-explain p{
-            font-size: 11px; /* Decrease heading font size */
-            margin-left: 60px;
-            margin-top: -117px;
+            font-size: 11px; /* categories for every need */
+            margin-left: 20px;
+            margin-top: -180px;
 
         }
         .hero .content-works .explain2 p{
-            font-size: 11px; /* Decrease heading font size */
-            margin-left: -150px;
-            margin-top: 30px;
+            font-size: 11px; /* built using java */
+            margin-left: -160px;
+            margin-top: -60px;
 
         }
         .hero .content-works .more-explain2 p {
             font-size: 11px; /* free library */
-            margin-left: -150px;
-            margin-top: 80px;
+            margin-left: -130px;
+            margin-top: 10px;
         }
     
        
@@ -915,30 +926,30 @@ opacity: 0;
        .hero .content-resume .resume-text h1 {
             
         font-size: 10px;
-        max-width: 70%; 
-        margin-left: 60px;
+        max-width: 100%; 
+        margin-left: -8px;
         margin-top: -460px;
         }
     
         .hero .content-resume .skills h2{
             font-size: 10px; 
             margin-top: -20px; 
-            margin-left: -450px;
+            margin-left: -330px;
         }
         .hero .content-resume .work-exp h2{
             font-size: 10px; 
             margin-top: 150px; 
-            margin-left: -450px;
+            margin-left: -330px;
         }
         .hero .content-resume .education h2{
             font-size: 10px; 
             margin-top: 210px; 
-            margin-left: -450px;
+            margin-left: -330px;
         }
         .hero .content-resume .projects h2 {
             font-size: 10px; 
             margin-top: 270px; 
-            margin-left: -450px;
+            margin-left: -330px;
             
             
         }
@@ -946,25 +957,25 @@ opacity: 0;
         .hero .content-resume .skills-list li{
             font-size: 10px; 
             margin-top: -1px; 
-            padding-left: 200px
+            padding-left: 300px
 
         }
         .hero .content-resume .work-exp p{
             font-size: 10px; 
             margin-top: 167px; 
-            padding-left: 200px
+            padding-left: 300px
 
         }
         .hero .content-resume .education p{
             font-size: 10px; 
             margin-top: 227px; 
-            margin-left: -430px;
+            margin-left: -330px;
 
         }
         .hero .content-resume .projects p {
             font-size: 10px; 
             margin-top: 288px; 
-            margin-left: -430px;
+            margin-left: -330px;
             
         }
     }
